@@ -15,8 +15,6 @@ Comparative Opinion Quintuple Extraction from Product Reviews [[EMNLP 2021]](htt
 
 The Comparative Opinion Quintuple Extraction (COQE) is to first identify whether it is a comparative sentences, and then extract the set of quintuples (sub, obj , ca, co, cp) if it is a comparative sentence.
 
-<!-- ![Alt text](img/figure1.PNG?raw=true "Example") -->
-
 ## Datasets
 
 We construct three datasets for our COQE task: Camera-COQE, Car-COQE and Ele-COQE:
@@ -49,7 +47,7 @@ We provided the source code of $\rm Multi\_Stage_{BERT}$ and $\rm Multi\_Stage_{
 We propose a multistage neural network framework, in which the first stage is to identify comparative sentences and extract comparative elements, the second stage is to combine and filter the extracted four comparative elements (sub, obj , ca, co) to obtain valid comparative quadruples, and the third stage is to further classify each comparative quadruple into a pre-defined preference category, and obtain all the comparative opinion quintuples.
 
 <p align="center">
-  <img src="image/figure_2.png" width="90%"/>
+  <img src="image/figure_2.png" width="75%"/>
 </p>
 <!-- ![Alt text:center](image/figure_2.png?raw=true "method") -->
 
@@ -58,13 +56,13 @@ We propose a multistage neural network framework, in which the first stage is to
 The Results of different approaches for CSI, CEE and COQE under the Exact Match metric:
 
 <p align="center">
-  <img src="image/figure_3.png" width="90%"/>
+  <img src="image/figure_3.png" width="75%"/>
 </p>
 
 We further conducted a cross-domain experiment on two Chinese datasets:
 
 <p align="center">
-  <img src="image/figure_4.png" width="90%"/>
+  <img src="image/figure_4.png" width="75%"/>
 </p>
 
 ## Citation
