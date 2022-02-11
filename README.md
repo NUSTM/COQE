@@ -49,7 +49,6 @@ We propose a multistage neural network framework, in which the first stage is to
 <p align="center">
   <img src="image/figure_2.png" width="75%"/>
 </p>
-<!-- ![Alt text:center](image/figure_2.png?raw=true "method") -->
 
 ## Results
 
@@ -70,7 +69,7 @@ We further conducted a cross-domain experiment on two Chinese datasets:
 If you use the data and code in your research, please cite our paper as follows:
 
 ```
-@inproceedings{liu2021comparative,
+@inproceedings{Liu2021comparative,
   title={Comparative Opinion Quintuple Extraction from Product Reviews},
   author={Liu, Ziheng and Xia, Rui and Yu, Jianfei},
   booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing},
