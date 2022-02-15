@@ -69,7 +69,7 @@ We further conducted a cross-domain experiment on two Chinese datasets:
 If you use the data and code in your research, please cite our paper as follows:
 
 ```
-@inproceedings{Liu2021comparative,
+@inproceedings{liu2021comparative,
   title={Comparative Opinion Quintuple Extraction from Product Reviews},
   author={Liu, Ziheng and Xia, Rui and Yu, Jianfei},
   booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing},
