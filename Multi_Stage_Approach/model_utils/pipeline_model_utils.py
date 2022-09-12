@@ -19,7 +19,7 @@ class Baseline(nn.Module):
         if "loss_factor" in model_parameters:
             self.gamma = model_parameters['loss_factor']
         else:
-            self.gamma = 0
+            self.gamma = 1
 
         # define sentence classification
         self.sent_linear = nn.Linear(self.encoder.hidden_size, 2)
