@@ -39,8 +39,8 @@ We benchmark the COQE task with four baseline systems:
 
 - $\rm CSI_{CSR}CEE_{CRF}$
 - $\rm (CSI-CEE)_{CRF}$
-- $\rm Multi\_Stage_{LSTM}$
-- $\rm Multi\_Stage_{BERT}$
+- $\rm MultiStage_{LSTM}$
+- $\rm MultiStage_{BERT}$
 
 We provided the source code of $\rm Multi\_Stage_{BERT}$ and $\rm Multi\_Stage_{LSTM}$ in Multi_Stage_Approach.
 
