@@ -5,7 +5,7 @@ We are making the final preparations for the release of our data and code. They 
 
 This repo contains the data sets and source code of our paper:
 
-Comparative Opinion Quintuple Extraction from Product Reviews [[EMNLP 2021]](https://aclanthology.org/2021.acl-long.29.pdf).
+Ziheng Liu, Rui Xia, and Jianfei Yu. Comparative Opinion Quintuple Extraction from Product Reviews. EMNLP 2021. [[pdf]](https://aclanthology.org/2021.emnlp-main.322.pdf)
 
 - We propose a new Comparative Opinion Quintuple Extraction (COQE) task, aiming to extract all the comparative quintuples from each review sentence;
 - We construct three new datasets for the task, on the basis of the existing comparative opinion mining corpora;
