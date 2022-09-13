@@ -16,7 +16,7 @@ Ziheng Liu, Rui Xia, and Jianfei Yu. Comparative Opinion Quintuple Extraction fr
 The Comparative Opinion Quintuple Extraction (COQE) is to first identify whether it is a comparative sentences, and then extract the set of quintuples (sub, obj , ca, co, cp) if it is a comparative sentence.
 
 <p align="center">
-<img src="image/table_1.jpg" width="50%" />
+<img src="image/table.jpg" width="50%" />
 </p>
 <!-- ![Alt text](image/table.jpg?raw=true "stat") -->
 
