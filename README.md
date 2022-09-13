@@ -43,7 +43,7 @@ The following table shows the statistics of three comparative quintuple corpora.
 We benchmark the COQE task with four baseline systems:
 
 - $\rm CSI_{CSR}CEE_{CRF}$
-- $\rm (CSI-CEE)_{CRF}$
+- $\rm (CSI\text{-}CEE)_{CRF}$
 - $\rm MultiStage_{LSTM}$
 - $\rm MultiStage_{BERT}$
 
