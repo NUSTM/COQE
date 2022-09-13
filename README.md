@@ -18,7 +18,7 @@ The Comparative Opinion Quintuple Extraction (COQE) is to first identify whether
 <p align="center">
 <img src="image/table_1.jpg" width="50%" />
 </p>
-<!-- ![Alt text](image/table_1.jpg?raw=true "stat") -->
+<!-- ![Alt text](image/table.jpg?raw=true "stat") -->
 
 ## Datasets
 
