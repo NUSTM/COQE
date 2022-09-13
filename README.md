@@ -42,7 +42,7 @@ We benchmark the COQE task with four baseline systems:
 - $\rm Multi\_Stage_{LSTM}$
 - $\rm Multi\_Stage_{BERT}$
 
-We provided the source code of $\rm Multi\_Stage_{BERT}$ and $\rm Multi\_Stage_{LSTM}$ in Multi_Stage_Approach. The other two methods provided the source code of $\rm Baseline\_System$.
+We provided the source code of $\rm Multi\_Stage_{BERT}$ and $\rm Multi\_Stage_{LSTM}$ in Multi_Stage_Approach.
 
 We propose a multistage neural network framework, in which the first stage is to identify comparative sentences and extract comparative elements, the second stage is to combine and filter the extracted four comparative elements (sub, obj , ca, co) to obtain valid comparative quadruples, and the third stage is to further classify each comparative quadruple into a pre-defined preference category, and obtain all the comparative opinion quintuples.
 
