@@ -49,8 +49,8 @@ class PathConfig(object):
 
         # nlp tool file path
         if device == "cpu":
-            self.stanford_path = r"D:/stanford-corenlp-full-2018-10-05"
-            self.bert_model_path = r"D:/base_uncased/" if file_type == "Camera-COQE" else r"D:/base_chinese/"
+            self.stanford_path = r"D:\University\Project\COQE\COQE\models\stanford-corenlp-full-2018-10-05"
+            self.bert_model_path = "bert-base-uncased" if file_type == "Camera-COQE" else r"D:/base_chinese/"
         else:
             self.stanford_path = premodel_path + "stanford-corenlp-full-2018-02-27"
             self.bert_model_path = premodel_path + "base_uncased/" if file_type == "Camera-COQE" else premodel_path + "base_chinese/"
