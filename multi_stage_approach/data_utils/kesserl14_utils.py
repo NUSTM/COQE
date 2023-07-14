@@ -173,6 +173,13 @@ class DataGenerator(object):
         """
         key_col = ["input_ids", "attn_mask", "tuple_pair_col", "result_label", "multi_label", "comparative_label"]
 
+        # Find the maximum length in the array
+        max_length = max(len(x) for x in data_dict["tuple_pair_col"])
+        print(max_length)
+        # Pad each element with the default value (0, 0)
+        data_dict["tuple_pair_col"] = [x + [[(0, 0), (0, 0), (0, 0), (0, 0), (0, 0)]] * (max_length - len(x)) for x in
+                                       data_dict["tuple_pair_col"]]
+
         for key in key_col:
             data_dict[key] = np.array(data_dict[key])
             print(key, data_dict[key].shape)
