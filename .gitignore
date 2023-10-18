@@ -1,0 +1,3 @@
+deps/stanford/tmp
+data/pre_process/*
+**/__pycache__/*
